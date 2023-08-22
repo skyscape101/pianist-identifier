@@ -21,19 +21,19 @@ Data Sampling: From the top artists with the most records, it randomly selects 3
 
 Data Encoding and Splitting: Encodes the artist names and splits the data into training and testing sets.
 
-MIDI to Piano Roll Conversion: Converts MIDI files to padded piano roll representations.
+**MIDI to Piano Roll Conversion:** Converts MIDI files to padded piano roll representations.
 
-Feature Extraction: Extracts various musical features from MIDI files, such as **Inter-Onset Interval (IOI), Off-Time Duration (OTD), dynamic levels, polyphony, pedal usage, and legato/staccato ratios**.
+**Feature Extraction:** Extracts various musical features from MIDI files, such as **Inter-Onset Interval (IOI), Off-Time Duration (OTD), dynamic levels, polyphony, pedal usage, and legato/staccato ratios**.
 
 Final Outputs
 
-Padded Piano Rolls: The processed MIDI files are converted into piano roll representations and saved as:
+**Padded Piano Rolls:** The processed MIDI files are converted into piano roll representations and saved as:
 
 X_train_padded2.npy
 
 X_test_padded2.npy
 
-Extracted Features: The extracted features from the MIDI files are saved as:
+**Extracted Features:** The extracted features from the MIDI files are saved as:
 
 X_train_features4.npy
 
