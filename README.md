@@ -56,7 +56,7 @@ After execution, you should find the .npy files in the same directory, which con
 
 # Introduce **0.1 Visualization of piano roll**
 Simple polt function to visualize first output of piano roll
-<img width="702" alt="piano roll" src="https://github.com/skyscape101/pianist-identifier/assets/119295996/fba93b8f-a61e-498e-9e34-f6128f4d3de3">
+
 
 # Introduce **1. CNN+MLP Final**
 
