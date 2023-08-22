@@ -5,7 +5,7 @@ https://github.com/BetsyTang/ATEPP/blob/master/disclaimer.md
 In this project, we use **Version-1.1**, and make sure to unzip the same file root with code.
 
 
-Introduce **0.Data**
+# Introduce **0.Data**
 
 **MIDI Data Processing and Feature Extraction**
 
@@ -23,7 +23,7 @@ Data Encoding and Splitting: Encodes the artist names and splits the data into t
 
 MIDI to Piano Roll Conversion: Converts MIDI files to padded piano roll representations.
 
-Feature Extraction: Extracts various musical features from MIDI files, such as Inter-Onset Interval (IOI), Off-Time Duration (OTD), dynamic levels, polyphony, pedal usage, and legato/staccato ratios.
+Feature Extraction: Extracts various musical features from MIDI files, such as **Inter-Onset Interval (IOI), Off-Time Duration (OTD), dynamic levels, polyphony, pedal usage, and legato/staccato ratios**.
 
 Final Outputs
 
@@ -40,16 +40,22 @@ X_train_features4.npy
 X_test_features4.npy
 
 
-Prerequisites:
+## Prerequisites:
 
 Ensure you have the required libraries installed:
 
 pip install pandas scikit-learn pretty_midi mido tqdm numpy
 
-Running the Script:
+## Running the Script:
 
 Simply execute the provided Python script. Ensure that the ATEPP-metadata-1.1.csv file is in the same directory or provide the appropriate path.
 
-Output Files:
+## Output Files:
 
 After execution, you should find the .npy files in the same directory, which contain the processed data and extracted features.
+
+# Introduce **0.1 Visualization of piano roll**
+Simple polt function to visualize first output of piano roll
+
+# Introduce **1. CNN+MLP Final**
+
