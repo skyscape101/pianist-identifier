@@ -56,7 +56,7 @@ After execution, you should find the .npy files in the same directory, which con
 
 # Introduce **0.1 Visualization of piano roll**
 Simple polt function to visualize first output of piano roll
-
+![alt text](https://github.com/skyscape101/pianist-identifier/piano roll.png)
 
 # Introduce **1. CNN+MLP Final**
 
@@ -82,7 +82,7 @@ Creates DataLoader objects for efficient batch processing.
 ### Model Definition:
 
 Defines a neural network model with a combination of CNN for processing piano rolls and MLP for processing extracted features.
-![model](https://github.com/skyscape101/pianist-identifier/assets/119295996/11b49d0c-bc48-4c63-8c97-237c90a788f4)
+![alt text](https://github.com/skyscape101/pianist-identifier/model.png)
 
 
 ### Training:
