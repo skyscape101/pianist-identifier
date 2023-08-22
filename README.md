@@ -1,4 +1,4 @@
-# pianist-identifier
+# MIDI Artist Identifier
 To get started with our project, you'll first need to download the dataset. You can find the dataset and its related files in this GitHub link:
 https://github.com/BetsyTang/ATEPP/blob/master/disclaimer.md
 
@@ -58,4 +58,56 @@ After execution, you should find the .npy files in the same directory, which con
 Simple polt function to visualize first output of piano roll
 
 # Introduce **1. CNN+MLP Final**
+
+## MIDI Artist Identifier using CNN and MLP
+This repository contains Python scripts designed to process MIDI files and train a model to identify artists based on the musical features and piano roll representations of their compositions.
+
+### Overview
+
+The code performs the following main tasks:
+
+### Data Normalization:
+
+Normalizes the piano roll representations.
+
+Standardizes the extracted features.
+
+Dataset and DataLoader Creation:
+
+Converts the data into PyTorch tensors.
+
+Creates DataLoader objects for efficient batch processing.
+
+### Model Definition:
+
+Defines a neural network model with a combination of CNN for processing piano rolls and MLP for processing extracted features.
+
+### Training:
+
+Trains the model using the Adam optimizer and CrossEntropyLoss.
+
+Evaluates the model's accuracy on the test set after each epoch.
+
+### Model Saving:
+
+Saves the trained model parameters to a file.
+
+### Final Output
+
+Trained Model: The trained model parameters are saved to a file named cnn+mlp-artist_id.pth in the autodl-tmp directory.
+
+
+### Prerequisites:
+
+Ensure you have the required libraries installed:
+
+pip install pandas scikit-learn numpy torch torchvision
+
+### Running the Script:
+
+Execute the provided Python script. Ensure that the ATEPP-metadata-1.1.csv file and the .npy files are in the appropriate directories or provide the correct paths.
+Output File:
+
+After execution, you should find the cnn+mlp-artist_id.pth file in the autodl-tmp directory, which contains the trained model parameters.
+
 
